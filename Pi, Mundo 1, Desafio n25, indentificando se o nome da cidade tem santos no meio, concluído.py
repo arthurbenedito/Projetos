@@ -1,0 +1,5 @@
+C=str(input('Digite o nome da cidade que você nasceu? '))
+m0=C.lower()
+m1=m0.strip()
+R=bool('santo' in m1)
+print(R)

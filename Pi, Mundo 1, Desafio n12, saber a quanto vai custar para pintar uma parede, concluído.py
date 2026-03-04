@@ -1,0 +1,5 @@
+LAR=float(input('Informe a largura da parede: '))
+COM=float(input('Informe o comprimento da parede: '))
+A=(LAR*COM)
+qTIN=(A/2)
+print('A área da parede em questão é de {}m². Para pintá-la com tinta, serão necessários {}L de tinta'.format(A, qTIN))
